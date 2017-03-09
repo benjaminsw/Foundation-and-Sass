@@ -53,7 +53,25 @@
 .top-bar{
 	color:white;
 
+	spand{
+		color:lighten($primary, 30%);
+		background:$dark-gray;
+		padding:5px 9px;
+		margin-right:4px;
+		border:light-gray;
+	}
+
+	li{
+		text-transform:uppercase;
+	}
 	a{
 		color:white;
+	}
+	a:hover{
+		color:$secondary;
+	}
+	a.current{
+		color:$secondary;
+		border-bottom: 3px solid $secondary;
 	}
 }
